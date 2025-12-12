@@ -14,7 +14,12 @@ Core Features:
         - View real-time status of panels, readers, inputs, and outputs 
         - Show online/offline, alarm, and normal states 
     - Manual control: 
-        - Trigger outputs (unlock door, activate relay
+        - By selecting the devices, a user will be able to simulate events/state of the devices. '
+        - When a user clicks on a device, a control menu shoud be displayed where a user is able to do the follwing:
+              - Set status online/offline
+              - Open Door
+              - Activate/Deactive
+              - etc..      
         - Acknowledge / clear alarms or events
 3. Backend & API
     - C# backend using ASP.NET Core to handle business logic and device simulation
@@ -25,4 +30,4 @@ Core Features:
     - SQL Server database storing: 
         - Device configuration 
         - Event and state-change logs
-
+4. Maybe a ChatBot feature??
