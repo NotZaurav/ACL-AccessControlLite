@@ -3,13 +3,17 @@ ACL (Access Control Lite) is a mini access-control platform that simulates a pro
 It features a React single-page UI backed by a C# (ASP.NET Core) REST API and a SQL Server database.
 
 Core Features:
-1. Configuration Page
+1. User Authentication & Role-Based Access Control
+    - Secure user authentication
+    -  JWT based authentication between React frontend and ASP.NET Core API
+    -  Role based authorization to restrict access to configuration and monitoring features
+2. Configuration Page
     - Create, modify, and delete:
         - Panels (access controllers) 
        	- Readers (card readers / doors) 
        	- Inputs (door contacts, request-to-exit, sensors) 
         - Outputs (locks, alarms, relays)
-2. Monitor & Control Page
+3. Monitor & Control Page
     - Live device monitoring:
         - View real-time status of panels, readers, inputs, and outputs 
         - Show online/offline, alarm, and normal states 
@@ -21,7 +25,7 @@ Core Features:
               - Activate/Deactive
               - etc..      
         - Acknowledge / clear alarms or events
-3. Backend & API
+4. Backend & API
     - C# backend using ASP.NET Core to handle business logic and device simulation
     - RESTful API exposing endpoints for: 
         - Managing panels, readers, inputs, and outputs 
@@ -30,4 +34,4 @@ Core Features:
     - SQL Server database storing: 
         - Device configuration 
         - Event and state-change logs
-4. Maybe a ChatBot feature??
+5. Maybe a ChatBot feature??
