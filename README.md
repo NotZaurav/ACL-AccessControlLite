@@ -23,7 +23,8 @@ Core Features:
               - Set status online/offline
               - Open Door
               - Activate/Deactive
-              - etc..      
+              - etc..
+        - When a user selects a cardholder, they can simulate cardholder actions such as swipe badge at reader
         - Acknowledge / clear alarms or events
 4. Backend & API
     - C# backend using ASP.NET Core to handle business logic and device simulation
